@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace TagExchange.Controllers
 {
-    public class SearchController : Controller
+    public class CreateController : Controller
     {
         //
-        // GET: /Search/
+        // GET: /Create/
         public ActionResult Index()
         {
             return View();
