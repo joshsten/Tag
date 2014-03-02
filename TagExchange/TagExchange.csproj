@@ -86,14 +86,16 @@
     <Content Include="Assets\css\bootstrap.min.css" />
     <Content Include="Assets\css\core.css" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Assets\js\bootstrap-tagsinput-angular.js" />
-    <Content Include="Assets\js\bootstrap-tagsinput.js" />
-    <Content Include="Assets\js\bootstrap-tagsinput.min.js" />
-    <Content Include="Assets\js\bootstrap.js" />
-    <Content Include="Assets\js\bootstrap.min.js" />
-    <Content Include="Assets\js\knockout-3.0.0.js" />
+    <Content Include="Assets\js\angular\angular-route.min.js" />
+    <Content Include="Assets\js\app\app.js" />
+    <Content Include="Assets\js\angular\bootstrap-tagsinput-angular.js" />
+    <Content Include="Assets\js\bootstrap\bootstrap-tagsinput.js" />
+    <Content Include="Assets\js\bootstrap\bootstrap-tagsinput.min.js" />
+    <Content Include="Assets\js\bootstrap\bootstrap.js" />
+    <Content Include="Assets\js\bootstrap\bootstrap.min.js" />
+    <Content Include="Assets\js\app\search.js" />
     <Content Include="Global.asax" />
-    <Content Include="Assets\js\bootstrap-tagsinput.min.js.map" />
+    <Content Include="Assets\js\bootstrap\bootstrap-tagsinput.min.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -106,7 +108,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\CreateController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -120,10 +121,10 @@
     <Content Include="Assets\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Views\Shared\_standard.cshtml" />
+    <Content Include="Views\Home\index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Create\Index.cshtml" />
+    <Content Include="Views\Home\search.cshtml" />
+    <Content Include="Views\Home\create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -133,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Assets\js\app\controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

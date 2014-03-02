@@ -6,6 +6,11 @@ body{
 	font-family: 'Concert One', cursive;
 }
 
+.bootstrap-tagsinput {
+    width: 100%;
+    margin: auto;
+}
+
 .light-centered{
 	color: #eee;
 	text-align: center;

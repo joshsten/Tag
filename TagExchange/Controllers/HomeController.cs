@@ -14,5 +14,13 @@ namespace TagExchange.Controllers
         {
             return View();
         }
+        public ActionResult Create()
+        {
+            return View();
+        }
+        public ActionResult Search()
+        {
+            return View();
+        }
 	}
 }

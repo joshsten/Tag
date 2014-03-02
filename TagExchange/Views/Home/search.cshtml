@@ -1,0 +1,35 @@
+﻿<div class="container">
+        <!-- Query  -->
+		<div class="row">
+			<div class="col-md-4"></div>
+		    <div class="col-md-4">
+		        <h2 class="light-centered brand">tag exchange</h2>
+		        <form class="form-horizontal">
+		            <input type="text" data-role="tagsinput" class="form-control centered-fullwidth" placeholder="I want to know about..."/>
+		        </form>
+		    </div>
+            
+            
+		</div>	
+        
+    <!-- Result Listing -->
+    <div class="row">
+		<div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h4 class="light-centered">Here's your content <span class="glyphicon glyphicon-heart-empty"></span> &nbsp;&nbsp;&nbsp; I found {{ 2 }} results. </h4>
+            <ul class="list-group search-results">
+                <li class="list-group-item" ng-repeater>
+                    <h5 class="list-group-item-heading">Caption</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </li>
+                <li class="list-group-item">
+                    <h5 class="list-group-item-heading">Caption</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </li>
+            </ul>
+        </div>
+                <div class="col-md-2"></div>
+         </div>
+
+</div>
+<script src="~/Assets/js/app/search.js"></script>
